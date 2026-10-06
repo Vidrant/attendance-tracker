@@ -40,6 +40,7 @@ def add_item():
             "fields": missing_fields
         }), 400
 
+#Store the attendance record in memory
     attendance.append(data)
 
     return jsonify({
